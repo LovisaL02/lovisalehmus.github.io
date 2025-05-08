@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 12rem;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+    margin: 0;
+    font-weight: 100;
+    font-size: 4rem;
+    font-family: "Lavishly Yours", Fantasy;
+}
+
+header p {
+    color: gray;
+    font-size: 1.5rem;
+}
+
+header p1 {
+    color: gray;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+
+}
+
+.bio-inline {
+    display: block;
+    color: white;
+    max-width: 600px;
+}
+
+main {
+    max-width: 1400px;
+    margin: 2rem auto;
+    padding: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+
+main h2 {
+    margin-bottom: 0.5rem;
+    color: #85677e;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h3 {
+    margin-bottom: 0.5rem;
+    padding-left: 2.5rem;
+}
+
+#breadtxt {
+    padding-left: 7rem;
+    padding-right: 7rem;
+    color: rgb(156, 156, 156);
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+
+}
+
+.project {
+    border-bottom: 2px solid #ccc;
+    
+    padding-bottom: 1rem;
+    padding-left: 10rem;
+    margin-bottom: 1rem;
+}
+
+.contact a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 1rem;
+    width: 50%;
+    height: inherit;
+    text-align: center;
+
+}
+
+
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.pb {
+    display: flex;
+}
+
+.pb img {
+    display: block;
+    width: 352.6496px;
+    height: 480px;
+}
+
+.motor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    max-width: 1200;
+
+}
+
+.motor img {
+    display: block;
+    width: 1200px;
+    height: 675px;
+}
+
+.MeetMat {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    max-width: 1200;
+
+}
+
+.MeetMat img {
+    display: block;
+    width: 1000px;
+    height: 1000px;
+}
+
+.TheTree {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    max-width: 1200;
+
+}
+
+.TheTree img {
+    display: block;
+    width: 1000px;
+    height: 1000px;
+}
